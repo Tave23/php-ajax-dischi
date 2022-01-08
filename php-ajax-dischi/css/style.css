@@ -1,0 +1,64 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, sans-serif;
+}
+
+header{
+   height: 100px;
+   width: 100vw;
+   background-color: rebeccapurple;
+}
+
+main{
+   height: calc(100% - 100px);
+   width: 100vw;
+   background-color: rgb(54, 25, 83);
+   padding-top: 100px;
+   padding-bottom: 50px;
+}
+
+header h1{
+   text-transform: uppercase;
+   text-align: center;
+   line-height: 100px;
+   color: white;
+   font-size: 50px;
+}
+
+main .container{
+   width: 60%;
+   margin: 0 auto;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.singleCard{
+   width: 19%;
+   height: 250px;
+   padding: 10px;
+   text-align: center;
+   margin: 10px auto;
+   background-color: rebeccapurple;
+}
+
+.author,
+.title{
+   text-transform: uppercase;
+}
+
+.singleCard img{
+   width: 80%;
+   height: 50%;
+   margin-bottom: 10px;
+}
+
+.title{
+   margin-bottom: 15px;
+   height: 15%;
+   line-height: 15px;
+}
+
+
+
